@@ -1,0 +1,372 @@
+#projects-headline,
+.about-headline h1,
+.contact-headline h1,
+.skills-headline h1 {
+    opacity: 0;
+    -webkit-transform: translateX(-120px);
+    -moz-transform: translateX(-120px);
+    -ms-transform: translateX(-120px);
+    -o-transform: translateX(-120px);
+    transform: translateX(-120px);
+    -webkit-transition: all .35s ease-in;
+    -moz-transition: all .35s ease-in;
+    -ms-transition: all .35s ease-in;
+    -o-transition: all .35s ease-in;
+    transition: all .35s ease-in
+}
+
+#projectsPage .projects-head .fade-in-headline,
+.about-head .fade-in-headline,
+.contact-head .fade-in-headline,
+.skills-head .fade-in-headline {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none
+}
+
+.lines .top-line {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    transform: translateX(-100px);
+    -webkit-transition: all .65s ease-in;
+    -moz-transition: all .65s ease-in;
+    -ms-transition: all .65s ease-in;
+    -o-transition: all .65s ease-in;
+    transition: all .65s ease-in
+}
+
+#aboutPage .lines .fade-in-top,
+#contactPage .lines .fade-in-top,
+#projectsPage .lines .fade-in-top,
+#skillsPage .lines .fade-in-top {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none
+}
+
+.lines .bottom-line {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    transform: translateX(-100px);
+    -webkit-transition: all .83s ease-in;
+    -moz-transition: all .83s ease-in;
+    -ms-transition: all .83s ease-in;
+    -o-transition: all .83s ease-in;
+    transition: all .83s ease-in
+}
+
+#aboutPage .lines .fade-in-bottom,
+#contactPage .lines .fade-in-bottom,
+#projectsPage .lines .fade-in-bottom,
+#skillsPage .lines .fade-in-bottom {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none
+}
+
+#projectsPage .projects-info,
+.about-info,
+.about-links>span,
+.contact-info,
+.skills-info {
+    opacity: 0;
+    -webkit-transform: translateX(-120px);
+    -moz-transform: translateX(-120px);
+    -ms-transform: translateX(-120px);
+    -o-transform: translateX(-120px);
+    transform: translateX(-120px);
+    -webkit-transition: all .6s ease-in;
+    -moz-transition: all .6s ease-in;
+    -ms-transition: all .6s ease-in;
+    -o-transition: all .6s ease-in;
+    transition: all .6s ease-in
+}
+
+#aboutPage .fade-in-info,
+#aboutPage .fade-in-link,
+#contactPage .fade-in-info,
+#projectsPage .fade-in-info,
+#skillsPage .fade-in-info {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none
+}
+
+.skills-tab {
+    opacity: 0;
+    -webkit-transform: translateX(-200px);
+    -moz-transform: translateX(-200px);
+    -ms-transform: translateX(-200px);
+    -o-transform: translateX(-200px);
+    transform: translateX(-200px);
+    -webkit-transition: all .6s ease-in;
+    -moz-transition: all .6s ease-in;
+    -ms-transition: all .6s ease-in;
+    -o-transition: all .6s ease-in;
+    transition: all .6s ease-in
+}
+
+#skillsPage .fade-in-tab {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none
+}
+
+#projectsPage .projects-btns,
+.about-btns {
+    opacity: 0;
+    -webkit-transform: translateX(-140px);
+    -moz-transform: translateX(-140px);
+    -ms-transform: translateX(-140px);
+    -o-transform: translateX(-140px);
+    transform: translateX(-140px);
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in
+}
+
+#aboutPage .fade-in-btn,
+#projectsPage .fade-in-btn {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none
+}
+
+#aboutPage .about-tabs {
+    opacity: 0;
+    -webkit-transform: translateX(250px);
+    -moz-transform: translateX(250px);
+    -ms-transform: translateX(250px);
+    -o-transform: translateX(250px);
+    transform: translateX(250px);
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out
+}
+
+#aboutPage .fade-in-tabs {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none
+}
+
+#aboutPage .about-image {
+    opacity: 0;
+    -webkit-transform: translateX(200px);
+    -moz-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    -o-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all .65s ease-out;
+    -moz-transition: all .65s ease-out;
+    -ms-transition: all .65s ease-out;
+    -o-transition: all .65s ease-out;
+    transition: all .65s ease-out
+}
+
+#aboutPage .fade-in-image {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none
+}
+
+#skillsPage .grid-layout {
+    grid-column-gap: 90px;
+    opacity: 0;
+    -webkit-transform: translateX(200px);
+    -moz-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    -o-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all .65s ease-out;
+    -moz-transition: all .65s ease-out;
+    -ms-transition: all .65s ease-out;
+    -o-transition: all .65s ease-out;
+    transition: all .65s ease-out
+}
+
+#skillsPage .fade-in-grid {
+    grid-column-gap: 45px;
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none
+}
+
+#skillsPage .skills-up {
+    opacity: 0;
+    -webkit-transform: translateX(200px);
+    -moz-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    -o-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all .65s ease-out;
+    -moz-transition: all .65s ease-out;
+    -ms-transition: all .65s ease-out;
+    -o-transition: all .65s ease-out;
+    transition: all .65s ease-out
+}
+
+#skillsPage .fade-in-upgrid {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none
+}
+
+#projectsPage .projects-layout {
+    grid-gap: 50px;
+    opacity: 0;
+    -webkit-transform: translateX(200px);
+    -moz-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    -o-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all .65s ease-out;
+    -moz-transition: all .65s ease-out;
+    -ms-transition: all .65s ease-out;
+    -o-transition: all .65s ease-out;
+    transition: all .65s ease-out
+}
+
+#projectsPage .fade-in-grid {
+    grid-gap: 0;
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none
+}
+
+#projectsPage .projects-mobile-down1>img,
+#projectsPage .projects-mobile-down2>img {
+    opacity: 0;
+    -webkit-transform: translateX(200px);
+    -moz-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    -o-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all .65s ease-out;
+    -moz-transition: all .65s ease-out;
+    -ms-transition: all .65s ease-out;
+    -o-transition: all .65s ease-out;
+    transition: all .65s ease-out
+}
+
+#projectsPage .fade-in-mobile {
+    opacity: 1!important;
+    -webkit-transform: none!important;
+    -moz-transform: none!important;
+    -ms-transform: none!important;
+    -o-transform: none!important;
+    transform: none!important
+}
+
+#contactPage .contact-form {
+    opacity: 0;
+    -webkit-transform: translateX(200px);
+    -moz-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    -o-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all .65s ease-out;
+    -moz-transition: all .65s ease-out;
+    -ms-transition: all .65s ease-out;
+    -o-transition: all .65s ease-out;
+    transition: all .65s ease-out
+}
+
+#contactPage .fade-in-form {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none
+}
+
+#contactPage .contact-title {
+    opacity: 0;
+    -webkit-transform: translateX(200px);
+    -moz-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    -o-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out
+}
+
+#contactPage .fade-in-contact {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none
+}
+
+@media screen and (max-width:1100px) {
+    #skillsPage .fade-in-grid {
+        grid-column-gap: 35px;
+        opacity: 1;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none
+    }
+}
+
+@media screen and (max-width:900px) {
+    #skillsPage .fade-in-grid {
+        grid-column-gap: 30px;
+        opacity: 1;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none
+    }
+}

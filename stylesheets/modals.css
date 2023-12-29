@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    cursor: pointer;
+    color: var(--bg-color-04)
+}
+
+.modal-content {
+    width: 24%;
+    max-width: 700px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .2), 0 7px 20px 0 rgba(0, 0, 0, .17);
+    animation-name: modalopen;
+    animation-duration: 0.4s;
+    cursor: auto;
+    position: relative;
+    left: 13%;
+    top: 1px;
+    border: 0;
+    background-color: var(--white-01);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px
+}
+
+@keyframes modalopen {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        top: -100px;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        top: 1px;
+    }
+}
+
+.modal-upper {
+    background-color: var(--bg-color-03);
+    border-bottom: 3px solid var(--bg-color-03);
+    width: 100%
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 0 0;
+    width: 100%
+}
+
+.modal-body>.modal-header {
+    border: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.modal-header>.modal-heading-num {
+    padding-left: 39px;
+    padding-right: 20px;
+    font-size: 40px;
+    line-height: 44px;
+    font-family: Abril Fatface, cursive;
+    color: var(--primary-color)
+}
+
+.modal-heading-num:after {
+    content: "";
+    width: 33px;
+    height: 2px;
+    background: var(--bg-color-04);
+    position: absolute;
+    top: 37px;
+    left: 0;
+    margin: auto
+}
+
+.modal-header>.modal-heading {
+    font-size: 32px;
+    font-family: futuramedium, serif;
+    left: 105px;
+    position: absolute
+}
+
+.modal-details {
+    width: 100%;
+    height: 100%;
+    font-family: futuraconlight, serif;
+    display: flex;
+    flex-direction: column
+}
+
+.modal-details .details-section {
+    text-align: left;
+    font-size: 17px;
+    padding: 6px 20px 0 33px;
+    font-family: futuraLight, serif;
+    line-height: 22px;
+    letter-spacing: 2.2px
+}
+
+.modal-details .stack-section {
+    text-align: center;
+    font-family: futuraBook, serif;
+    padding: 4px 0;
+    color: var(--primary-color)
+}
+
+.divider {
+    padding: .9px;
+    margin: 7px 39px;
+    background-color: rgb(255, 62, 85);
+    border-width: inherit;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+}
+
+.modal-buttons {
+    padding-top: 10px;
+    padding-left: 16px
+}
+
+.modal-buttons>a {
+    background-color: var(--primary-color);
+    color: var(--white-02);
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 7px 15px;
+    font-family: futuraconlight, serif;
+    transition: all .5s
+}
+
+.modal-buttons>a:hover {
+    background: var(--white-01);
+    color: var(--primary-color)
+}
+
+.closing {
+    font-size: 45px;
+    color: var(--primary-color);
+    cursor: pointer;
+    opacity: .8;
+    padding: 0 8px 0 0
+}
+
+.closing:hover {
+    opacity: 1;
+    color: var(--primary-color)
+}
+
+.image-section>img {
+    width: 100%
+}
+
+@media screen and (max-width:1200px) {
+    .modal-content {
+        width: 28%
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .modal-content {
+        width: 30%
+    }
+}
+
+@media screen and (max-width:968px) {
+    .modal-content {
+        left: 9%
+    }
+}
+
+@media screen and (max-width:778px) {
+    .modal-header>.modal-heading-num {
+        padding-right: 12px;
+        font-size: 32px
+    }
+    .modal-header>.modal-heading {
+        font-size: 26px;
+        left: 90px
+    }
+}
+
+@media screen and (max-width:778px) {
+    .modal-header>.modal-heading-num {
+        font-size: 27px;
+        padding-left: 32px
+    }
+    .modal-header>.modal-heading {
+        font-size: 24px;
+        left: 76px
+    }
+    .modal-details .stack-section {
+        padding: 4px 5px;
+        font-size: 14px
+    }
+    .modal-details .details-section {
+        font-size: 16px
+    }
+    .modal-heading-num:after {
+        width: 28px
+    }
+}
+
+@media screen and (max-width:630px) {
+    .modal-header>.modal-heading {
+        font-size: 22px
+    }
+    .modal-header>.modal-heading-num {
+        font-size: 26px
+    }
+}
+
+.owl-prev {
+    left: 0 !important
+}
+
+.owl-next,
+.owl-prev {
+    position: absolute !important;
+    bottom: 0 !important
+}
+
+.owl-next {
+    right: 0 !important
+}
+
+.owl-next:focus,
+.owl-prev:focus {
+    outline: none
+}
+
+.owl-theme .owl-nav {
+    margin-top: 0 !important
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: var(--white-01) !important;
+    padding: 8px 19px !important;
+    background: rgba(255, 62, 85, .7) !important;
+    border-radius: 0 !important;
+    font-size: 24px !important;
+    margin: 0 !important
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+    padding: 10px 15px
+}
