@@ -1,0 +1,146 @@
+.wrapper {
+  padding: 5%;
+  font-size: 15px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #ecfce5;
+  width: 50%;
+}
+@media (max-width: 1000px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+@media (max-width: 1500px) {
+  .wrapper {
+    width: 60%;
+  }
+}
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.t23 .col-one-template .header-part {
+  display: block;
+  padding: 45px 50px 25px 72px;
+  background-color: #b8f19d;
+  margin-bottom: 1.7em;
+}
+.two-col-template {
+  display: flex;
+}
+
+.col-one-template {
+  width: 80%;
+  /* padding: 5% 4%; */
+}
+
+.col-two-template {
+  width: 20%;
+  padding: 5%;
+  font-size: 15px;
+}
+.col-two-template .header-detail-block {
+  word-wrap: break-word;
+}
+.t23 .col-one-template .header-part .name-with-profession .resume-name {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+.ff-calibri-bold {
+  font-weight: bold;
+}
+.t23 .col-one-template .header-part .name-with-profession .resume-profession {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 300;
+}
+.t23 .about-me p:last-child {
+  margin-bottom: 0;
+}
+.t23 .about-me p {
+  font-size: 12px;
+  line-height: 12px;
+  margin: 0;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.t23 h2 {
+  padding: 0.6em 1.5em 0.6em 2.5em;
+  line-height: 19px;
+  color: #385718;
+  font-size: 1.2em;
+  background-color: #b8f19d;
+  margin-bottom: 12px;
+  position: relative;
+}
+.t23 .col-two-template .header-part .header-detail-block .column {
+  color: #b8f19d;
+  margin-bottom: 3px;
+  text-align: center;
+}
+.t23 .skills-block ul li {
+  margin-bottom: 6px;
+  position: relative;
+  list-style: none;
+  color: #fff;
+}
+.t23 .two-col-template .col-two-template {
+  background: #385718;
+  padding: 40px 38px 40px 38px;
+  position: relative;
+  left: -0.1px;
+}
+.t23 .col-one-template .header-part {
+  display: block;
+  padding: 45px 50px 25px 0;
+  background-color: #b8f19d;
+  margin-bottom: 24px;
+}
+.col-skills ul {
+  padding: 0;
+  padding-left: 5%;
+}
+
+.logo-area img {
+  border-radius: 50%;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 10px #e2ffee;
+}
+.logo-area {
+  text-align: center;
+}
+.col-two-template .ff-calibri-bold {
+  background-color: #385718;
+  color: #b8f19d;
+  margin-top: 15%;
+  font-size: 1.5em;
+}
+.col-one-template > div > div ul {
+  padding: 0;
+  padding-left: 1em;
+}
+.col-one-template > div > div {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+.about-me {
+  font-family: "Times New Roman", Times, serif;
+}
+.add-bot-mgn h3 {
+  font-size: 1.1em;
+  font-family: "Times New Roman", Times, serif;
+}
+.add-des-bottom-mgn {
+  padding-left: 1em;
+}
+.add-des-bottom-mgn {
+  padding: 0;
+  padding-left: 1em;
+}
+.col-two-template .ff-calibri-bold {
+  padding-left: 0 !important;
+}
