@@ -65,6 +65,13 @@
     animation-iteration-count: infinite
 }
 
+.details-section li>a{
+    color: #2a2a2b !important;
+}
+.details-section li>a:hover{
+    color: #4444ce !important;
+}
+
 @keyframes bounce {
     0% {
         bottom: 0

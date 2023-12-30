@@ -161,33 +161,34 @@
 }
 
 .horizontal-scrolling:first-child .projects-item:first-child .project-content>.project-card {
-    background: url("../assets/images/stackoverflow/landing.webp") 35% no-repeat;
+    background: url("../assets/images/stackoverflow/landing.png") 35% no-repeat;
     background-size: cover
 }
 
 .horizontal-scrolling:first-child .projects-item:nth-child(2) .project-content>.project-card {
-    background: url("../assets/images/resume-bot/landing.webp") 15% 50% no-repeat;
+    background: url("https://b1694534.smushcdn.com/1694534/wp-content/uploads/2021/09/unnamed-3.png?lossy=1&strip=1&webp=1") 15% 50% no-repeat;
     background-size: cover
 }
 
 .horizontal-scrolling:first-child .projects-item:nth-child(3) .project-content>.project-card {
-    background: url("../assets/images/sd-times/landing.webp") 50% no-repeat;
+    background: url("../assets/images/sd-times/landing.png") 50% no-repeat;
     background-size: cover
 }
 
 .horizontal-scrolling:nth-child(2) .projects-item:first-child .project-content>.project-card {
-    background: url("../assets/images/space-invaders/landing.webp") 50% no-repeat;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE4RIFSUSaPxMLbky4LYUwB4N2zvqWow_D-M8Uvvi42gzyJBI3RY9cwtn3WoWAsupNqGE&usqp=CAU") 50% no-repeat;
     background-size: cover
 }
 
 .horizontal-scrolling:nth-child(2) .projects-item:nth-child(2) .project-content>.project-card {
-    background: url("../assets/images/blog-site/landing.webp") 50% no-repeat;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW0k6AQY_OenP-EFu703SIroxWfH0CZiI7cw&usqp=CAU") 50% no-repeat;
     background-size: cover
 }
 
 .horizontal-scrolling:nth-child(2) .projects-item:nth-child(3) .project-content>.project-card {
-    background: url("../assets/images/moviesurfer/landing.webp") 50% no-repeat;
-    background-size: cover
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWv475bMiUEkdzM_KCpIdnguj6G0DBRifTjGwA0XhmBHUkJfKVP9P-vEqupw&s") 50% no-repeat;
+    background-size: cover;
+    background-size: 100%;
 }
 
 .project-content>.project-card2 {
