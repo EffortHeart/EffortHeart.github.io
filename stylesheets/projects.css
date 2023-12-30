@@ -161,7 +161,7 @@
 }
 
 .horizontal-scrolling:first-child .projects-item:first-child .project-content>.project-card {
-    background: url("../assets/images/stackoverflow/landing.png") 35% no-repeat;
+    background: url("../assets/images/aff/landing.png") 35% no-repeat;
     background-size: cover
 }
 
@@ -171,7 +171,7 @@
 }
 
 .horizontal-scrolling:first-child .projects-item:nth-child(3) .project-content>.project-card {
-    background: url("../assets/images/sd-times/landing.png") 50% no-repeat;
+    background: url("../assets/images/weather/landing.png") 50% no-repeat;
     background-size: cover
 }
 

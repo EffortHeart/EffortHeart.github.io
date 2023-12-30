@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-@import url("https://css.gg/arrow-long-left.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/arrow-long-left.css");
 
 @font-face {
     font-family: futuraconlight;
@@ -439,147 +439,127 @@ header .displayNone {
 }
 
 .image1 {
-    background: url(../assets/images/stackoverflow/1.webp) 50% no-repeat;
+    background: url(../assets/images/aff/aff4.png) 50% no-repeat;
     background-size: cover;
 }
 
 .image2 {
-    background: url(../assets/images/stackoverflow/2.webp) 50% no-repeat;
+    background: url(../assets/images/aff/aff5.png) 50% no-repeat;
     background-size: cover;
 }
 
 .image3 {
-    background: url(../assets/images/stackoverflow/3.webp) 50% no-repeat;
+    background: url(../assets/images/aff/aff6.png) 50% no-repeat;
     background-size: cover;
 }
 
 .image4 {
-    background: url(../assets/images/stackoverflow/4.webp) 50% no-repeat;
+    background: url(../assets/images/aff/aff1.png) 50% no-repeat;
     background-size: cover;
 }
 
 .image5 {
-    background: url(../assets/images/stackoverflow/5.webp) 50% no-repeat;
+    background: url(../assets/images/aff/aff2.png) 50% no-repeat;
     background-size: cover;
 }
 
 .image6 {
-    background: url(../assets/images/stackoverflow/6.webp) 50% no-repeat;
+    background: url(../assets/images/aff/aff3.png) 50% no-repeat;
     background-size: cover;
 }
 
 .image11 {
-    background: url(../assets/images/resume-bot/1.webp) 50% no-repeat;
+    background: url(../assets/images/chat-app/chat1.jpg) 50% no-repeat;
     background-size: cover;
 }
 
 .image12 {
-    background: url(../assets/images/resume-bot/2.webp) 50% no-repeat;
+    background: url(../assets/images/chat-app/chat2.jpg) 50% no-repeat;
     background-size: cover;
 }
 
 .image13 {
-    background: url(../assets/images/resume-bot/3.webp) 50% no-repeat;
+    background: url(../assets/images/chat-app/chat3.jpg) 50% no-repeat;
     background-size: cover;
 }
 
 .image21 {
-    background: url(../assets/images/sd-times/1.webp) 50% no-repeat;
+    background: url(../assets/images/weather/weather1.jpg) 50% no-repeat;
     background-size: cover;
 }
 
 .image22 {
-    background: url(../assets/images/sd-times/2.webp) 50% no-repeat;
+    background: url(../assets/images/weather/weather2.jpg) 50% no-repeat;
     background-size: cover;
 }
 
 .image23 {
-    background: url(../assets/images/sd-times/3.webp) 50% no-repeat;
+    background: url(../assets/images/weather/weather3.jpg) 50% no-repeat;
     background-size: cover;
 }
 
 .image24 {
-    background: url(../assets/images/sd-times/4.webp) 50% no-repeat;
+    background: url(../assets/images/weather/weather2.jpg) 50% no-repeat;
     background-size: cover;
 }
 
 .image31 {
-    background: url(../assets/images/space-invaders/1.webp) 50% no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrd3DWiJpEgJ0B_3Ycbzy0kNBk4Ax5bMpPg&usqp=CAU) 50% no-repeat;
     background-size: cover;
 }
 
 .image32 {
-    background: url(../assets/images/space-invaders/2.webp) 50% no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6if7NmM6O2dR7YiAh81FsPNt2TQCfoIyqUQ&usqp=CAU) 50% no-repeat;
     background-size: cover;
 }
 
 .image33 {
-    background: url(../assets/images/space-invaders/3.webp) 50% no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSViXHLNhSk-gpN6Q958GjmaW7QOQkssOZUNg&usqp=CAU) 50% no-repeat;
     background-size: cover;
 }
 
 .image34 {
-    background: url(../assets/images/space-invaders/4.webp) 50% no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-aVbwd0c7wE3l2I9zp9R4w0qbw3EB2uGCAA&usqp=CAU) 50% no-repeat;
     background-size: cover;
 }
 
 .image41 {
-    background: url(../assets/images/blog-site/1.webp) 50% no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8MyyKagk3YDCvzTvNyF0uzkKy9AHJD0cdlQ&usqp=CAU) 50% no-repeat;
     background-size: cover;
 }
 
 .image42 {
-    background: url(../assets/images/blog-site/2.webp) 50% no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW0k6AQY_OenP-EFu703SIroxWfH0CZiI7cw&usqp=CAU) 50% no-repeat;
     background-size: cover;
 }
 
 .image43 {
-    background: url(../assets/images/blog-site/3.webp) 50% no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXF4PKHkDjvbl7hZtrtB7diBmwTjsMDaH-yA&usqp=CAU) 50% no-repeat;
     background-size: cover;
 }
 
 .image44 {
-    background: url(../assets/images/blog-site/4.webp) 50% no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTowy45_G4hrDyhRtccRPX5470R-awglWDJQ&usqp=CAU) 50% no-repeat;
     background-size: cover;
 }
 
 .image45 {
-    background: url(../assets/images/blog-site/5.webp) 50% no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQQNAjuv_Q_rBmY9c7EY9fgAByPE39KUXuHHccJqK9-pglIk02i6dSkAF_6evSpYLzYTo&usqp=CAU) 50% no-repeat;
     background-size: cover;
 }
 
 .image46 {
-    background: url(../assets/images/blog-site/6.webp) 50% no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBtnbV_L-QLMqa6ye4r8ppIJciTOw8ShJJOC6gtVRU4ELXO9YXgj_5vQobJwNhPhPB7lU&usqp=CAU) 50% no-repeat;
     background-size: cover;
 }
 
 .image51 {
-    background: url(../assets/images/moviesurfer/1.webp) 50% no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWv475bMiUEkdzM_KCpIdnguj6G0DBRifTjGwA0XhmBHUkJfKVP9P-vEqupw&s) 50% no-repeat;
     background-size: cover;
 }
 
 .image52 {
-    background: url(../assets/images/moviesurfer/2.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image53 {
-    background: url(../assets/images/moviesurfer/3.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image54 {
-    background: url(../assets/images/moviesurfer/4.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image55 {
-    background: url(../assets/images/moviesurfer/5.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image56 {
-    background: url(../assets/images/moviesurfer/6.webp) 50% no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9R56TLOx_2dyeFOysxRFRipnrTF-ACqyoyQ&usqp=CAU) 50% no-repeat;
     background-size: cover;
 }
 
