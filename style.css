@@ -34,13 +34,15 @@
 
 .col-one-template {
   width: 80%;
-  /* padding: 5% 4%; */
 }
 
 .col-two-template {
-  width: 20%;
-  padding: 5%;
+  width: 270px;
+  padding: 0;
   font-size: 15px;
+}
+.header-detail-block .-address{
+  font-size: 0.9em;
 }
 .col-two-template .header-detail-block {
   word-wrap: break-word;
@@ -90,7 +92,7 @@
 }
 .t23 .two-col-template .col-two-template {
   background: #385718;
-  padding: 40px 38px 40px 38px;
+  padding: 3%;
   position: relative;
   left: -0.1px;
 }
