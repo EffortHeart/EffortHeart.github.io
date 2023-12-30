@@ -563,6 +563,16 @@ header .displayNone {
     background-size: cover;
 }
 
+.image53 {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWv475bMiUEkdzM_KCpIdnguj6G0DBRifTjGwA0XhmBHUkJfKVP9P-vEqupw&s) 50% no-repeat;
+    background-size: cover;
+}
+
+.image54 {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9R56TLOx_2dyeFOysxRFRipnrTF-ACqyoyQ&usqp=CAU) 50% no-repeat;
+    background-size: cover;
+}
+
 .owl-prev {
     left: 0 !important;
 }
