@@ -82,13 +82,19 @@
 .t23 .col-two-template .header-part .header-detail-block .column {
   color: #b8f19d;
   margin-bottom: 3px;
-  text-align: center;
+  padding-left: 15px;
 }
 .t23 .skills-block ul li {
   margin-bottom: 6px;
   position: relative;
   list-style: none;
   color: #fff;
+}
+.add-bot-mgn>h3{
+  font-weight: bold;
+}
+.header-detail-block .column:first-child {
+  padding-left: 0;
 }
 .t23 .two-col-template .col-two-template {
   background: #385718;
