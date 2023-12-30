@@ -573,6 +573,16 @@ header .displayNone {
     background-size: cover;
 }
 
+.image55 {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWv475bMiUEkdzM_KCpIdnguj6G0DBRifTjGwA0XhmBHUkJfKVP9P-vEqupw&s) 50% no-repeat;
+    background-size: cover;
+}
+
+.image56 {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9R56TLOx_2dyeFOysxRFRipnrTF-ACqyoyQ&usqp=CAU) 50% no-repeat;
+    background-size: cover;
+}
+
 .owl-prev {
     left: 0 !important;
 }
@@ -1303,4 +1313,10 @@ header .displayNone {
     to {
         opacity: 1;
     }
+}
+.details li{
+    color: #072142;
+}
+.details li:hover{
+    color: #2b68c5;
 }
